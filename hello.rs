@@ -15,6 +15,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<usize> {
             }
         }
     }
-    return vec![0,0];
+    // empty vector to communicate that no two pairs exist that equal the sum
+    return vec![];
 }
 
